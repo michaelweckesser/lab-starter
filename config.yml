@@ -30,7 +30,7 @@ steps:
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 2: EDIT HERE -INTERNAL COMMENT FOR STEP 2
+# Step 2: CHOOSE THE RIGHT PROTEIN
 # - title: # the title of the step, shown to the learner in the course progress page
 #  description: # SO SO YUMMY
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
