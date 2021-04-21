@@ -24,7 +24,7 @@ before:
 
 steps:
 # Step 1: TACOS- WHY DO WE LOVE 
-- title: # the title of the step, shown to the learner in the course progress page
+ - title: # the title of the step, shown to the learner in the course progress page
   description: # a description of the step, shown to the learner in the course progress page
   event: issue_commented.created
   actions: # a list of the actions that will occur when the step is triggered by an event
@@ -34,11 +34,11 @@ steps:
   right: "Creating the config file"
 
 # Step 2: CHOOSE THE RIGHT PROTEIN
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # SO SO YUMMY
-#  event: issue_commented.created
-#  actions: # a list of the actions that will occur when the step is triggered by an event
-#  - type: # the type of action, full list at https://lab.github.com/docs/actions
+ - title: # the title of the step, shown to the learner in the course progress page
+  description: # SO SO YUMMY
+  event: issue_commented.created
+  actions: # a list of the actions that will occur when the step is triggered by an event
+  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 3: CHOOSE THE RIGHT SEASONING
 # - title: # the title of the step, shown to the learner in the course progress page
