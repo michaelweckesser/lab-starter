@@ -1,0 +1,3 @@
+•	Phase 1: We comment in an existing issue and ask the user to close that issue. We explain what closing an issue means, that issues can be reopened, and give examples of when it's appropriate to close an issue.
+•	Phase 2: We use the webhook event specifically for closing issues. The learner closes an issue. We use a gate to validate that the correct issue is closed. Using this gate, we determine that the learner closed the wrong issue.
+•	Phase 3: We reopen the issue that was closed but should have stayed open, and we comment telling the user that they closed the wrong issue. We link to the correct issue.
