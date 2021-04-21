@@ -29,10 +29,11 @@ steps:
   event: issue_commented.created
   actions: # a list of the actions that will occur when the step is triggered by an event
 
-#type: gate
-#left: '%payload.pull_request.title%'
-#operator: ===
-#right: "Creating the config file"
+type: gate
+left:
+operator:
+right:
+
 # Step 2: CHOOSE THE RIGHT PROTEIN
 # - title: # the title of the step, shown to the learner in the course progress page
 #  description: # SO SO YUMMY
