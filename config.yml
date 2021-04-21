@@ -28,11 +28,6 @@ steps:
   description: # a description of the step, shown to the learner in the course progress page
   event: issue_commented.created
   actions: # a list of the actions that will occur when the step is triggered by an event
-- title: Assign yourself
-  description: Assign the first issue to yourself.
-  event: issues.assigned
-  link: 'https://github.com/michaelweckesser/lab-starter/issues/1'
-  actions:
   - type: gate
     left: '%payload.pull_request.title%'
     operator: ===
