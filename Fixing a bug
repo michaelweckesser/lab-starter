@@ -1,0 +1,3 @@
+•	Phase 1: We open a pull request for the learner in a repository with tests configured. The learner has already demonstrated the skills needed to understand the tests and the codebase. The pull request introduces a bug and has a failing test. We ask the learner to change the files in that pull request to fix the bug and make the tests pass.
+•	Phase 2: The learner commits changes. We check using gates that the tests are passing, and that the tests haven't been removed. We see that the tests are passing.
+•	Phase 3: We merge the pull request for the user and create the next task. We comment in the pull request congratulating them, and link them to their next instructions.
