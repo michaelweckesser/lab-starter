@@ -1,0 +1,3 @@
+•	Phase 1: We are teaching about writing functions, and we give the learner several examples in an issue comment. We ask the learner to write a function.
+•	Phase 2: We assume the learner will create a branch, make a commit, and open a pull request. Then, we will use a gate to check their function. Because we ask the learner to do this in an issue, the learner is unsure of where to do this. They write a function as a comment in the issue.
+•	Phase 3: Since we are listening for a commit, and the gate is set to check after that event, there is no feedback triggered when the user comments on the issue.
