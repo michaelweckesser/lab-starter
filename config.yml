@@ -28,7 +28,7 @@ steps:
   description: # a description of the step, shown to the learner in the course progress page
   event: issue_commented.created
   actions: # a list of the actions that will occur when the step is triggered by an event
-- type: gate
+type: gate
   left: '%payload.pull_request.title%'
   operator: ===
   right: "Creating the config file"
