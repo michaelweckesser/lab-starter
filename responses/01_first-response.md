@@ -12,9 +12,9 @@ Here, we'll describe generally what the user is about to do.
 
 ### :keyboard: Activity: Specific description
 
-1. Step 1 in short sentence
-2. Step 2 in short sentence
-3. Step 3 in short sentence
+1. Mix the spices
+2. Take a whiff
+3. Give it a taste
 
 <hr>
 <h3 align="center">Watch below this comment for my response</h3>
