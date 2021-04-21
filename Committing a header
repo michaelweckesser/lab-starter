@@ -1,0 +1,3 @@
+•	Phase 1: We open a pull request for the learner that is adding a blank markdown file. We tell them what headers are, and show them examples of how to write them using markdown syntax. We ask them to commit a change to the file in the pull request adding a header.
+•	Phase 2: The learner commits and changes the file.
+•	Phase 3: We accept the learner's commit and move on to the next step.
