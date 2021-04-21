@@ -29,7 +29,11 @@ steps:
   event: issue_commented.created
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
-
+- type: gate # using the gate action
+left: '%payload.pull_request.title%' # get the title from the pull request object inside of the payload
+the payload
+  operator: === # check for strict equality, see more at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Identity
+  right: Add name to README             # this is the expected value
 # Step 2: CHOOSE THE RIGHT PROTEIN
 # - title: # the title of the step, shown to the learner in the course progress page
 #  description: # SO SO YUMMY
